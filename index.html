@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./favicon.png">
+    <link rel="manifest" href="./manifest.json">
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="/images/icons/icon-96x96.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#ff3131">
+    <meta name="theme-color" content="#ff3131">
+    <title>AI-108 Calculator</title>
+</head>
+<body>
+    <div class="calculatorTop">
+        <div class="screen">
+            <div class="screen__memoryError">
+                <div class="screen__memoryError__memory">M</div>
+                <div class="screen__memoryError__negative"></div>
+                <div class="screen__memoryError__error">E</div>
+            </div>
+            <div class="screen__number">
+                <div class="screen__number__top"></div>
+                <div class="screen__number__top-left"></div>
+                <div class="screen__number__top-right"></div>
+                <div class="screen__number__middle"></div>
+                <div class="screen__number__bottom-left"></div>
+                <div class="screen__number__bottom-right"></div>
+                <div class="screen__number__bottom"></div>
+            </div>
+            <div class="screen__decimal"></div>
+            <div class="screen__number">
+                <div class="screen__number__top"></div>
+                <div class="screen__number__top-left"></div>
+                <div class="screen__number__top-right"></div>
+                <div class="screen__number__middle"></div>
+                <div class="screen__number__bottom-left"></div>
+                <div class="screen__number__bottom-right"></div>
+                <div class="screen__number__bottom"></div>
+            </div>
+            <div class="screen__decimal"></div>
+            <div class="screen__number">
+                <div class="screen__number__top"></div>
+                <div class="screen__number__top-left"></div>
+                <div class="screen__number__top-right"></div>
+                <div class="screen__number__middle"></div>
+                <div class="screen__number__bottom-left"></div>
+                <div class="screen__number__bottom-right"></div>
+                <div class="screen__number__bottom"></div>
+            </div>
+            <div class="screen__decimal"></div>
+            <div class="screen__number">
+                <div class="screen__number__top"></div>
+                <div class="screen__number__top-left"></div>
+                <div class="screen__number__top-right"></div>
+                <div class="screen__number__middle"></div>
+                <div class="screen__number__bottom-left"></div>
+                <div class="screen__number__bottom-right"></div>
+                <div class="screen__number__bottom"></div>
+            </div>
+            <div class="screen__decimal"></div>
+            <div class="screen__number">
+                <div class="screen__number__top"></div>
+                <div class="screen__number__top-left"></div>
+                <div class="screen__number__top-right"></div>
+                <div class="screen__number__middle"></div>
+                <div class="screen__number__bottom-left"></div>
+                <div class="screen__number__bottom-right"></div>
+                <div class="screen__number__bottom"></div>
+            </div>
+            <div class="screen__decimal"></div>
+            <div class="screen__number">
+                <div class="screen__number__top"></div>
+                <div class="screen__number__top-left"></div>
+                <div class="screen__number__top-right"></div>
+                <div class="screen__number__middle"></div>
+                <div class="screen__number__bottom-left"></div>
+                <div class="screen__number__bottom-right"></div>
+                <div class="screen__number__bottom"></div>
+            </div>
+            <div class="screen__decimal"></div>
+            <div class="screen__number">
+                <div class="screen__number__top"></div>
+                <div class="screen__number__top-left"></div>
+                <div class="screen__number__top-right"></div>
+                <div class="screen__number__middle"></div>
+                <div class="screen__number__bottom-left"></div>
+                <div class="screen__number__bottom-right"></div>
+                <div class="screen__number__bottom"></div>
+            </div>
+            <div class="screen__decimal"></div>
+            <div class="screen__number">
+                <div class="screen__number__top"></div>
+                <div class="screen__number__top-left"></div>
+                <div class="screen__number__top-right"></div>
+                <div class="screen__number__middle"></div>
+                <div class="screen__number__bottom-left"></div>
+                <div class="screen__number__bottom-right"></div>
+                <div class="screen__number__bottom"></div>
+            </div>
+            <div class="screen__decimal"></div>
+        </div>
+    </div>
+    <div class="calculatorBottom">
+        <div class="button__container">
+            <button data-negative class="red"><span>+/-</span></button>
+            <button data-square-root class="red"><span>&Sqrt;</span></button>
+            <button data-percent class="red"><span>%</span></button>
+            <button data-operation="divide" class="red"><span>&div;</span></button>
+            <button data-memory-recall class="red"><span>MRC</span></button>
+            <button data-memory-minus class="red"><span>M-</span></button>
+            <button data-memory-plus class="red"><span>M+</span></button>
+            <button data-operation="multiply" class="red"><span>&times;</span></button>
+            <button data-number="7" class="white"><span>7</span></button>
+            <button data-number="8" class="white"><span>8</span></button>
+            <button data-number="9" class="white"><span>9</span></button>
+            <button data-operation="subtract" class="red"><span>-</span></button>
+            <button data-number="4" class="white"><span>4</span></button>
+            <button data-number="5" class="white"><span>5</span></button>
+            <button data-number="6" class="white"><span>6</span></button>
+            <button data-operation="add" class="red"><span>+</span></button>
+            <button data-number="1" class="white"><span>1</span></button>
+            <button data-number="2" class="white"><span>2</span></button>
+            <button data-number="3" class="white"><span>3</span></button>
+            <button data-equals class="red span-two"><span>=</span></button>
+            <button data-on-clear class="red"><span>ON/C</span></button>
+            <button data-number="0" class="white"><span>0</span></button>
+            <button data-number="." class="white"><span>.</span></button>
+        </div>
+    </div>
+
+    <script src="./js/swActivation.js"></script>
+    <script src="./js/app.js" defer></script>
+</body>
+</html>
